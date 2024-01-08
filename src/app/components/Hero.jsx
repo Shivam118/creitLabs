@@ -15,7 +15,7 @@ const Hero = () => {
           architects of digital transformation, crafting solutions that redefine
           industries`}
         </p>
-        <button className={styles.heroBtn}>Schedule a Call</button>
+        <button className={styles.heroBtn}>{`Let's Chat`}</button>
       </div>
     </div>
   );

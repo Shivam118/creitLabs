@@ -2,6 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 import styles from "../assets/styles/navbar.module.css";
+
 const Navbar = () => {
   return (
     <navbar className={styles.navbar}>

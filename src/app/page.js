@@ -1,9 +1,10 @@
+"use client";
 import React from "react";
 import styles from "./page.module.css";
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import Services from "./components/Services";
-import About from "./components/About";
+import Contact from "./components/Contact";
 import OurEngineers from "./components/ourEngineers";
 
 const page = () => {
@@ -13,7 +14,7 @@ const page = () => {
       <Hero />
       <Services />
       <OurEngineers />
-      <About />
+      <Contact />
     </main>
   );
 };

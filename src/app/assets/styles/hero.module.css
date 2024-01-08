@@ -15,7 +15,7 @@
   font-size: 30px;
   font-weight: 700;
   font-family: "montserrat", "sans-serif";
-  line-height: 42px;
+  line-height: 48px;
 }
 .hero .heroText h1 span {
   width: 100%;
@@ -23,6 +23,7 @@
   font-weight: 700;
   letter-spacing: 2px;
   text-decoration: underline;
+  color: purple;
 }
 .hero .heroText .heroDesc {
   margin-top: 20px;
@@ -35,7 +36,7 @@
 .hero .heroText .heroBtn {
   width: 200px;
   padding: 10px 20px;
-  margin-top: 25px;
+  margin-top: 50px;
   border-radius: 5px;
   font-size: 16px;
   color: white;

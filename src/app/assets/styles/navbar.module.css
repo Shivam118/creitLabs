@@ -1,13 +1,15 @@
 .navbar {
   width: 100vw;
-  height: 70px;
+  height: 80px;
   border-bottom: 1px solid #ddd;
+  background: #fff;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
   padding: 0 20px;
   position: fixed;
+  z-index: 10;
   top: 0;
   left: 0;
 }
@@ -22,7 +24,7 @@
 .navbar .navbarLogo span {
   margin-left: 10px;
   font-size: 18px;
-  font-weight: 600;
+  font-weight: 800;
   font-family: "montserrat", "sans-serif";
   letter-spacing: 1px;
 }
@@ -45,6 +47,7 @@
 .navbar .navbarLinks .navbarItems li {
   margin: 0 15px;
   font-weight: 500;
+  text-transform: capitalize;
 }
 .navbar .navbarLinks .navbarItems li:hover {
   cursor: pointer;

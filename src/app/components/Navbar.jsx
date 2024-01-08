@@ -1,14 +1,15 @@
+"use client";
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 import styles from "../assets/styles/navbar.module.css";
-import logo from "../assets/images/creItLabs.svg";
+import { creItLabs } from "./Images";
 
 const Navbar = () => {
   return (
     <navbar className={styles.navbar}>
       <div className={styles.navbarLogo}>
-        <Image src={logo} alt="CreIt Logo" width={50} height={50} />
+        <Image src={creItLabs} alt="CreIt Logo" width={50} height={50} />
         <span>CreIT Labs</span>
       </div>
       <div className={styles.navbarLinks}>

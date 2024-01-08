@@ -1,0 +1,87 @@
+.contact {
+  width: 100vw;
+  height: 90vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 0 100px;
+}
+.contact .contactText {
+  width: 40%;
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 50px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  box-shadow: -4px 0px 15px rgba(0, 0, 0, 0.25);
+}
+.contact .contactText h2 {
+  width: 100%;
+  font-size: 40px;
+  font-weight: 600;
+  color: purple;
+}
+.contact .contactText p,
+.contact .contactText p span {
+  width: 100%;
+  margin-top: 20px;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: justify;
+}
+.contact .contactFormSection {
+  width: 40%;
+  height: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(220, 245, 255);
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  box-shadow: 5px 0px 15px rgba(0, 0, 0, 0.25);
+}
+.contact .contactFormSection .contactForm {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.contact .contactFormSection .contactForm input,
+.contact .contactFormSection .contactForm textarea {
+  width: 300px;
+  height: 50px;
+  margin-bottom: 20px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  font-size: 16px;
+  font-weight: 500;
+  font-family: "montserrat", "sans-serif";
+}
+.contact .contactFormSection .contactForm textarea {
+  height: 100px;
+}
+.contact .contactFormSection .contactForm input[type="submit"] {
+  background: #fff;
+  color: purple;
+  font-weight: 600;
+  border: 1px solid purple;
+}
+.contact .contactFormSection .contactForm input[type="submit"]:hover {
+  cursor: pointer;
+  background: rgb(183, 93, 183);
+  border: none;
+  color: #fff;
+}
+.contact .contactFormSection .contactForm input:focus,
+.contact .contactFormSection .contactForm textarea:focus {
+  outline: 1px solid purple;
+}
